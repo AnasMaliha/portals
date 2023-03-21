@@ -1,0 +1,330 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/* Fonts Include */
+
+@font-face {
+     src: url("../fonts/Lexend-Light.ttf");
+     font-family: "main";
+}
+
+/* Medium Fonts */
+
+@font-face {
+     src: url("../fonts/");
+     font-family: "medium";
+}
+
+/* bold Fonts */
+
+@font-face {
+     src: url("../fonts/");
+     font-family: "bold";
+}
+
+/* Fonts Include */
+
+/* Start General */
+html * {
+     text-rendering: optimizeSpeed;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     font-family: "main", sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+:root {
+     --main-color: #1A9AC4;
+     --secondary-color: #3F3F3E;
+     --font-family: "main", sans-serif;
+     --trans: all 0.4s ease-in-out;
+     --font-14: 14px;
+     --font-16: 16px;
+}
+
+body {
+     overflow-x: hidden;
+     background: #F5F5F5;
+     transition: var(--trans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     font-family: "bold", "main", sans-serif;
+}
+
+a:hover,
+a:focus,
+a:active,
+button:hover,
+button:focus,
+button:active,
+div,
+section,
+span,
+p,
+div:hover,
+section:hover,
+span:hover,
+p:hover {
+     text-decoration: none;
+     outline: none;
+}
+
+select,
+input[type="checkbox"],
+input[type="radio"],
+select:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+     cursor: pointer;
+}
+
+.form-control:focus,
+.btn:focus {
+     box-shadow: none !important;
+     border-color: transparent;
+}
+
+.has-fixed-top .main-header {
+     padding-top: 100px;
+}
+
+.btn- {
+     padding: 8px 30px !important;
+     background-color: var(--secondary-color) !important;
+     border-color: var(--secondary-color) !important;
+     color: #FFF !important;
+     border-radius: 25px;
+     font-family: 'medium', 'main', sans-serif;
+     font-size: 20px;
+}
+
+.default-img {
+     background-image: url(../images/default.png);
+     background-color: #F8FAFB;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.cover-image {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+picture {
+     display: block;
+}
+
+.sec-padding {
+     padding: 50px 0;
+}
+
+/* Start General */
+.navbar{
+     border-radius: 15px;
+     box-shadow: 0px 0px 47.1273px rgba(6, 28, 61, 0.05);
+}
+.navbar button{
+     padding: 13px 25px;
+     background-color: #00C4D1;
+     color: white;
+     border-radius: 15px;
+     border: none;
+     font-size: 16px;
+
+}
+.navbar .nav-item .nav-link{
+     color: #838E9E;
+     font-size: 15px;
+}
+.navbar .nav-item .nav-link:hover{
+     color: #00C4D1;
+}
+.lang{
+     padding: 10px 8px;
+     border: 1px solid;
+     border-color: aliceblue;
+     border-radius: 8px;
+     color: #00C4D1;
+     font-size: 13px;
+}
+.marketing h4{
+     color: #0A2669;
+     font-weight: bold;
+     font-size: 22px;
+}
+.marketing p{
+    color: #838E9E;
+    font-size: 18px;
+}
+.marketing .course-price{
+     height: 535px;
+     border-radius: 15px;
+     box-shadow: 0px 11.5995px 54.131px rgba(6, 28, 61, 0.1);
+     padding: 30px;
+}
+.last-courses{
+     background-color: #FDFDFD;
+}
+.last-courses .card{
+     border-radius: 15px;
+}
+.last-courses h4{
+     color: #0A2669;
+     font-weight: bold;
+     font-size: 24px;
+}
+.last-courses .card h5{
+     color: #061C3D;
+     font-size: 15px;
+     font-weight: bold;
+}
+.last-courses .card #illustrator{
+     font-size: 10px;
+     color: #00C4D1;
+     text-transform: uppercase;
+}
+.last-courses .card #onest{
+     font-size: 11px;
+     color: #42526B;
+}
+.last-courses .lang1{
+     background-color: #F5F6F7;
+     color: #061C3D;
+     padding: 12px 14px;
+     border-radius: 6px;
+}
+.last-courses .btn1{
+     padding: 1px 11px;
+     
+}
+.last-courses button{
+     padding: 9px 25px;
+     color: #00C4D1;
+     border: 1px solid;
+     border-radius: 10px;
+     font-size: 14px;
+     background: white;
+
+}
+.last-courses #doalr{
+     color: #00C4D1;
+     padding-left: 70px;
+     margin: auto;
+}
+.course-price h5{
+     font-size: 16px;
+}
+.course-price .sar{
+     font-size: 14px;
+     color: rgba(10, 38, 105, 0.26);
+}
+.course-price .discount{
+     color:  rgba(251, 68, 0, 1);
+}
+.course-price .line{
+     display: block;
+     width: 100%;
+     height: 1px;
+     background-color: rgba(249, 249, 249, 1);
+}
+.course-price button{
+     padding: 13px 25px;
+     background-color: #00C4D1;
+     color: white;
+     border-radius: 15px;
+     border: none;
+     font-size: 16px;
+     width: 100%;
+}
+.course-price h6{
+     font-size: 14px;
+     color: rgba(10, 38, 105, 0.26);
+     text-align: center;
+}
+.course-price label{
+     color: rgba(10, 38, 105, 1);    
+}
+.course-price ul li{
+     color: rgba(10, 38, 105, 0.26);
+     font-size: 14px;
+}
+.course-price input{
+     border-color: #00C4D1;
+     border-radius: 10px;
+}
+.course-price a{
+     background-color: #00C4D1;
+     color: white;
+     border: none;
+     border-radius: 10px;
+}
+/* Media for responsive */
+@media (min-width: 1440px) {
+     .container {
+          max-width: 1430px;
+     }
+}
+
+@media (max-width: 1440px) {}
+
+@media (min-width: 1440px) and (max-width: 1465px) {}
+
+@media (min-width: 1465px) and (max-width: 1565px) {}
+
+@media (min-width: 1465px) and (max-width: 1665px) {}
+
+@media (min-width: 1440px) and (max-width: 1750px) {}
+
+@media (min-width: 1300px) and (max-width: 1375px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+     nav{
+          text-align: center;
+     }
+     .lang{
+          margin-bottom: 2px !important;
+     }
+     .last-courses #doalr{
+          color: #00C4D1;
+          padding-left: 0px !important;
+          margin: auto;
+     }
+     .navbar img{
+          width: 30%;
+     }
+     .marketing {
+          text-align: center;
+     }
+     .course-price h5 {
+          font-size: 13px;
+     }
+     .course-price .sar {
+          font-size: 13px;
+     }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+/* Media for responsive */
